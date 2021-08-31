@@ -57,4 +57,5 @@ func TestCache(t *testing.T) {
 	testEnforceCache(t, e, "bob", "data2", "write", false)
 	testEnforceCache(t, e, "alice", "data2", "read", true)
 	testEnforceCache(t, e, "alice", "data2", "write", true)
+	
 }
